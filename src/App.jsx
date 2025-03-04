@@ -25,7 +25,7 @@ function App() {
   };
   return (
     <>
-      <div className="bg-slate-800 rounded-lg py-10 px-4">
+      <div className="bg-slate-800 rounded-lg pt-10 px-4">
         <h1 className="text-white font-bold text-4xl text-center mb-4">
           To Do List
         </h1>

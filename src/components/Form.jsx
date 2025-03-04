@@ -3,7 +3,7 @@ export default function Form({ onSubmit }) {
   return (
     <form
       method="post"
-      className="flex items-center mb-20 gap-2"
+      className="flex items-center mb-10 gap-2"
       onSubmit={onSubmit}
     >
       <input

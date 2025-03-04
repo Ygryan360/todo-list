@@ -20,7 +20,7 @@ function Label({ td, ...propos }) {
   return (
     <label
       htmlFor={td.id}
-      className={`ms-2 text-sm font-medium ${
+      className={`ms-2 text-sm text-wrap break-all ${
         td.done ? "line-through" : "text-gray-300"
       }`}
       {...propos}
