@@ -13,7 +13,7 @@ export default function Form({ onSubmit }) {
         autoComplete="off"
         required
         placeholder="Add task"
-        className="text-gray-200 rounded-lg outline-0 w-full p-2 bg-slate-900 focus:border-blue-500 focus:border-2 focus:ring-blue-500 border-2 border-slate-600 placeholder:text-gray-400"
+        className="text-gray-200 rounded-lg outline-0 w-full p-2 focus:border-blue-500 focus:border focus:ring-blue-500 border border-slate-600 placeholder:text-gray-400 focus:bg-slate-900"
       />
       <Button type="submit">Ajouter</Button>
     </form>
