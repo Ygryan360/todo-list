@@ -15,7 +15,7 @@ export default function Form({ onSubmit }) {
         placeholder="Add task"
         className="text-gray-200 rounded-lg outline-0 w-full p-2 focus:border-blue-500 focus:border focus:ring-blue-500 border border-slate-600 placeholder:text-gray-400 focus:bg-slate-900"
       />
-      <Button type="submit">Ajouter</Button>
+      <Button type="submit">Add</Button>
     </form>
   );
 }
